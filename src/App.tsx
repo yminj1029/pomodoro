@@ -8,9 +8,11 @@ import TotalStatus from './components/TotalStatus';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Timer></Timer>
-      <TotalStatus></TotalStatus>
+      <div className='App-Container'>
+        <Header></Header>
+        <Timer></Timer>
+        <TotalStatus></TotalStatus>
+      </div>
     </div>
   );
 }
