@@ -30,7 +30,7 @@ const StartBtn = styled.button`
 const Header = () => {
 
     const startTimer = () =>{
-        console.log("start");
+        console.log("test");
     }
     return (
         <HeaderDiv>
